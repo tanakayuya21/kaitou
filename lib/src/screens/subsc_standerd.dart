@@ -66,8 +66,7 @@ class _NextPageState extends State<SubScPageStanderd> {
   }
 
   Future<void> _fetchProducts() async {
-    await Purchases.configure(
-        PurchasesConfiguration('appl_BFdGjdAkcbonHIhlWHxigrpSnQW'));
+    await Purchases.configure(PurchasesConfiguration(''));
     try {
       final offerings = await Purchases.getOfferings();
       final currentOffering = offerings.current;

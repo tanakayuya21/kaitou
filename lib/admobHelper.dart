@@ -31,19 +31,11 @@ String getAdBannerUnitId() {
   String bannerUnitId = "";
   if (Platform.isAndroid) {
     // Android のとき
-    bannerUnitId = "ca-app-pub-8797688860098728/9939874399";
+    bannerUnitId = "";
   } else if (Platform.isIOS) {
     // iOSのとき
-    // bannerUnitId = "ca-app-pub-8797688860098728/9939874399";
-    // bannerUnitId = "ca-app-pub-8797688860098728/9939874399";
-    // 本番
-    // bannerUnitId = "ca-app-pub-8797688860098728/4962405491";
-    // bannerUnitId = "ca-app-pub-8797688860098728/3992938753";
-    // テスト用
-    // bannerUnitId = "ca-app-pub-3940256099942544/2934735716";
-// ca-app-pub-3940256099942544/6300978111
-    //bannerUnitId = "ca-app-pub-3940256099942544/2934735716";
-    bannerUnitId = "ca-app-pub-8797688860098728/4962405491";
+
+    bannerUnitId = "";
   }
   return bannerUnitId;
 }

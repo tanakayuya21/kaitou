@@ -21,7 +21,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 ///
 /// To learn how to generate and specify this key,
 /// check out the README file of this sample.
-const String _apiKey = 'AIzaSyBaIel8Oj5OQYBDHHXnn0eYjIQ7FBqfT6I';
+const String _apiKey = '';
 
 void main() {
   runApp(const GenerativeAISample());

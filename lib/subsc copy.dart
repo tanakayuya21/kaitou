@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> _fetchProducts() async {
     await Purchases.configure(
-        PurchasesConfiguration('appl_BFdGjdAkcbonHIhlWHxigrpSnQW'));
+        PurchasesConfiguration(''));
     try {
       // 利用可能な商品を取得
       final offerings = await Purchases.getOfferings();
